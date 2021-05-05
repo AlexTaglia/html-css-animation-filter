@@ -174,7 +174,6 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;    
-    ;
 }
 
 @keyframes rotate{
@@ -184,4 +183,26 @@
       to {
         transform: rotate(-359deg);
       }
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation-name: semi-rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;    
+}
+
+@keyframes semi-rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    95%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
 }
