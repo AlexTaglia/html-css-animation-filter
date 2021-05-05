@@ -240,3 +240,80 @@ a:hover .ex-12-bottom-white{
         right: 120px;
     }
 }
+
+/* Esercizio 13 */
+
+/* .ex-13-top-white {
+    background-color: red;
+}
+.ex-13-bottom-white{
+    background-color: blue;
+} */
+
+a:hover .ex-13-top-white{
+    animation-name: move-left13;
+    animation-duration: 2s;
+    animation-timing-function: linear;    
+}
+
+@keyframes move-left13{
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    25%{
+        left: 90%;
+        top: -10px;
+    }
+
+    50%{
+        left: 90%;
+        top: 55px;
+    }
+
+    75%{
+        left: -10px;
+        top: 55px;
+    }
+
+    100%{
+        left: -10px;
+        top: 0px;
+    }
+
+}
+
+a:hover .ex-13-bottom-white{
+    animation-name: move-right13;
+    animation-duration: 2s;
+    animation-timing-function: linear;    
+}
+
+@keyframes move-right13{
+    0%{
+        right: 20%;
+        top: 55px;
+    }
+
+    25%{
+        right: 80%;
+        top: 55px;
+    }
+
+    50%{
+        right: 80%;
+        top: -10px;
+    }
+
+    75%{
+        right: -10%;
+        top: -10px;
+    }
+
+    100%{
+        right: -10%;
+        top: 55px;
+    }
+
+}
