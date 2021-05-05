@@ -206,3 +206,37 @@
         transform: rotate(0deg);
     }
 }
+
+/* Esercizio 12 */
+
+a:hover .ex-12-top-white{
+    animation-name: move-left;
+    animation-duration: 1s;
+    animation-timing-function: linear;    
+}
+
+@keyframes move-left{
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 120px;
+    }
+}
+
+a:hover .ex-12-bottom-white{
+    animation-name: move-right;
+    animation-duration: 1s;
+    animation-timing-function: linear;    
+}
+
+@keyframes move-right{
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 120px;
+    }
+}
